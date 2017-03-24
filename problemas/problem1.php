@@ -19,10 +19,7 @@ if(isset($_POST['enviar'])){
     $obj = new ChangeString($string);
 
 
-    $res =  $obj->build();
-
-
-    echo $res;
+    $output =  $obj->build();
 
 
 }
