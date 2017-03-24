@@ -26,6 +26,7 @@ class ClearPar
             if($d[$i] == '(' && $i < count($d)-1){
                 if($d[$i+1] == ')'){
                     $response .= '()';
+                    $i++;
                 }
             }
 
